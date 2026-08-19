@@ -1,4 +1,4 @@
-### 석현 · Seokhyun
+### 서석현 · Seokhyun
 Software Developer | Android · Backend · AI
 
 평택대학교 스마트콘텐츠학과 — 프로젝트를 직접 만들면서 문제를 찾고 해결하는 과정에 관심이 많습니다.
