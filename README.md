@@ -10,11 +10,17 @@ Software Developer | Android · Backend · AI
 **Languages**
 `Kotlin` `Java` `C++` `Python`
 
+**Mobile**
+`Android` `CameraX` `Google Maps SDK` `ViewModel · LiveData`
+
 **Backend / Database**
-`Firebase` `MySQL`
+`Spring Boot` `Kafka` `FastAPI` `Node.js` `Firebase` `PostgreSQL` `MySQL`
 
 **AI / ML**
-`TensorFlow Lite` `MoveNet`
+`PyTorch` `TensorFlow Lite` `MoveNet` `OpenAI API` `Claude API`
+
+**Deploy**
+`Render` `Linux`
 
 **Tools**
 `Git` `GitHub` `Android Studio` `VS Code`
@@ -42,6 +48,22 @@ Kotlin으로 개발한 Android 앱으로, TensorFlow Lite MoveNet을 이용한 �
 - FastAPI 백엔드 + PyTorch 기반 경로 예측 모델
 - Kakao Local API / OpenStreetMap 지오코딩
 - OSRM 실도로 라우팅, Leaflet 지도 시각화
+- 초기 모델은 Baseline 대비 평균 −2.65%였지만, capacity-only repair + best-of-20 샘플링으로 **평균 +7.2% 개선**
+
+**[RunBuddy](https://github.com/seokhyu-n/RunBuddy)** · 팀 프로젝트 (3명)  
+실시간 러닝 트래킹 & AI 러닝 코치 Android 앱
+
+GPS로 거리·페이스·칼로리·고도를 실시간 측정하고, 자연어로 요청하면 OpenAI가 러닝 코스를 추천해 지도에 표시합니다. AI API 연동(앱 ↔ Node.js AI 서버 ↔ OpenAI)과 러닝 중 지도 표시를 맡았습니다.
+
+- API 키를 앱에 두지 않도록 AI 서버를 분리해 Render에 배포
+- Google Maps Polyline 실시간 경로 시각화
+
+**[BASISI](https://github.com/haakim7/Basisi)** · 팀 프로젝트 (5명)  
+AI 데이터 분석 기반 베이비시터 검증·매칭 플랫폼
+
+AI 및 메시징 처리를 맡아, 후기 등록 이벤트를 Kafka로 비동기 처리하는 파이프라인과 LLM 후기 감성 분석, 시터 활동 점수(불꽃 온도) 로직을 개발했습니다.
+
+- Spring Boot · Kafka · LLM API(OpenAI · Gemini)
 
 ---
 
